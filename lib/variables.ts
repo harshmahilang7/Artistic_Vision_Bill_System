@@ -11,7 +11,8 @@ export const ENV = process.env.NODE_ENV;
  */
 export const BASE_URL = "https://invoify.vercel.app";
 export const AUTHOR_WEBSITE = "https://aliabb.vercel.app";
-export const AUTHOR_GITHUB = "https://github.com/al1abb";
+export const AUTHOR_GITHUB = "https://github.com/harshmahilang7";
+export const COMPANY_WEBSITE = "https://www.artisticvision.in/";
 
 /**
  * API endpoints

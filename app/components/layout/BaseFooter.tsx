@@ -4,6 +4,7 @@ import { useTranslationContext } from "@/contexts/TranslationContext";
 
 // Variables
 import { AUTHOR_GITHUB } from "@/lib/variables";
+import { COMPANY_WEBSITE } from "@/lib/variables";
 
 const BaseFooter = () => {
     const { _t } = useTranslationContext();
@@ -17,7 +18,16 @@ const BaseFooter = () => {
                     target="_blank"
                     style={{ textDecoration: "underline" }}
                 >
-                    Ali Abbasov
+                    Harsh Mahilang
+                </a>
+            </p>
+            <p>
+                <a
+                    href={COMPANY_WEBSITE}
+                    target="_blank"
+                    style={{ textDecoration: "underline" }}
+                >
+                    © 2025 Artistic Vision. All rights reserved.
                 </a>
             </p>
         </footer>
